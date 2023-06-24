@@ -30,6 +30,11 @@ def index():
                         margin-bottom: 20px;
                     }
 
+                    h2 {
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+
                     button {
                         padding: 12px 24px;
                         font-size: 18px;
@@ -45,13 +50,57 @@ def index():
                     button:hover {
                         background-color: #005D6E;
                     }
+
+                    .author-container {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 40px;
+                    }
+
+                    .author {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .author img {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .author-name {
+                        margin-top: 10px;
+                        font-size: 16px;
+                        color: #fff;
+                    }
                 </style>
             </head>
             <body>
                 <div class="container">
                     <h1>CardiaScan</h1>
-                    <p> Welcome to our major project </p>
+                    <p>Welcome to our major project</p>
                     <button onclick="runStreamlit()">Click me to run app</button>
+                    <div class="author-container">
+                        <div class="author">
+                            <img src="https://avatars.githubusercontent.com/u/65809279?v=4" alt="Author 1">
+                            <div class="author-name">Atul Dwivedi</div>
+                        </div>
+                        <div class="author">
+                            <img src="https://media.licdn.com/dms/image/C4E03AQHXmKsDYggAyw/profile-displayphoto-shrink_400_400/0/1609768885569?e=1692835200&v=beta&t=jTpIB6AIR2ZV7Q_tTWN4sbmf1XG7ARNap-gwDcJA6LA" alt="Author 2">
+                            <div class="author-name">Anuvart</div>
+                        </div>
+                        <div class="author">
+                            <img src="https://github.com/atultechd/Arrhythmia_detection_using_ecg_image_data/blob/main/Deployment/aman.jpeg?raw=true=" alt="Author 3">
+                            <div class="author-name">Aman Parihar</div>
+                        </div>
+                        <div class="author">
+                            <img src="https://media.licdn.com/dms/image/C4E03AQHdMZXsMKgwMA/profile-displayphoto-shrink_400_400/0/1637296311214?e=1692835200&v=beta&t=RFFatqW8zlJdFVNW8UgvuT_CFJBMBIu4nK3H974VAYs" alt="Author 4">
+                            <div class="author-name">Abhishek Goyal</div>
+                        </div>
+                    </div>
                 </div>
 
                 <script>
@@ -72,7 +121,6 @@ def run_streamlit():
 
 if __name__ == '__main__':
     app.run(port=5000)
-
 
 # export FLASK_APP=server.py
 # flask run --port=5001
