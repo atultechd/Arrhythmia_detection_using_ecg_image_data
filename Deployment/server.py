@@ -22,17 +22,16 @@ def index():
                         max-width: 600px;
                         margin: 0 auto;
                         text-align: center;
-                        padding-top: 100px;
+                        padding-top: 50px;
                     }
 
-                    h1 {
-                        font-size: 36px;
-                        margin-bottom: 20px;
+                    .logo {
+                        margin-bottom: 2px;
+                        width: 150px;
                     }
 
-                    h2 {
+                    p {
                         font-size: 24px;
-                        margin-bottom: 20px;
                     }
 
                     button {
@@ -80,7 +79,7 @@ def index():
             </head>
             <body>
                 <div class="container">
-                    <h1>CardiaScan</h1>
+                    <img class="logo" src="https://github.com/atultechd/Arrhythmia_detection_using_ecg_image_data/blob/main/Deployment/cardiascan.png?raw=true" alt="CardiaScan Logo">
                     <p>Welcome to our major project</p>
                     <button onclick="runStreamlit()">Click me to run app</button>
                     <div class="author-container">
@@ -97,7 +96,7 @@ def index():
                             <div class="author-name">Aman Parihar</div>
                         </div>
                         <div class="author">
-                            <img src="https://media.licdn.com/dms/image/C4E03AQHdMZXsMKgwMA/profile-displayphoto-shrink_400_400/0/1637296311214?e=1692835200&v=beta&t=RFFatqW8zlJdFVNW8UgvuT_CFJBMBIu4nK3H974VAYs" alt="Author 4">
+                            <img src="https://github.com/atultechd/Arrhythmia_detection_using_ecg_image_data/blob/main/Deployment/abhi.jpeg?raw=true" alt="Author 4">
                             <div class="author-name">Abhishek Goyal</div>
                         </div>
                     </div>
