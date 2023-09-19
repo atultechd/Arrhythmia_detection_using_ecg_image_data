@@ -263,3 +263,22 @@ class ECG:
 			return "Your ECG is Normal. \n\nA normal ECG reading indicates that your heart is functioning within the normal range. However, it is always recommended to consult with a healthcare professional for a comprehensive evaluation of your cardiac health."
 		else:
 			return "Your ECG corresponds to a History of Myocardial Infarction. \n\nHistory of Myocardial Infarction, commonly known as a heart attack, happens when the blood flow to a part of the heart muscle is blocked. This blockage is usually caused by a clot that forms in one of the blood vessels supplying the heart. When the blood flow is blocked, the affected part of the heart muscle doesn't receive enough oxygen and nutrients. This lack of oxygen can cause damage or death to the heart tissue.\n\nThe most common reason for a heart attack is a condition called coronary artery disease (CAD). CAD occurs when fatty deposits, called plaque, build up in the arteries that supply blood to the heart. Over time, the plaque can rupture and form a blood clot that blocks the artery, leading to a heart attack.\n\nTo cure a heart attack, immediate medical attention is essential. When someone experiences a heart attack, they should call emergency services right away. Medical professionals will administer treatments such as:\n\n- Medications: They may give medications to dissolve the blood clot or prevent further clotting. These medications help restore blood flow to the heart.\n- Angioplasty and stenting: A procedure called percutaneous coronary intervention (PCI) may be performed. It involves inserting a thin tube with a balloon into the blocked artery. The balloon is then inflated to widen the artery, and a small metal mesh tube called a stent may be placed to keep the artery open.\n- Bypass surgery: In more severe cases, coronary artery bypass graft (CABG) surgery may be necessary. During this surgery, a new blood vessel is used to create a detour around the blocked artery, restoring blood flow to the heart.\n\nIt's important to note that recovering from a heart attack involves ongoing care and lifestyle changes. This may include taking medications as prescribed, making dietary modifications, engaging in regular exercise, quitting smoking, and managing other health conditions like high blood pressure or diabetes.\n\nPrevention is also crucial. Making healthy lifestyle choices, such as eating a balanced diet, maintaining a healthy weight, exercising regularly, managing stress, and avoiding smoking, can significantly reduce the risk of a heart attack.\n\nRemember, if you suspect a heart attack, call for emergency help immediately. Time is of the essence, and prompt medical intervention can save lives and minimize damage to the heart."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
